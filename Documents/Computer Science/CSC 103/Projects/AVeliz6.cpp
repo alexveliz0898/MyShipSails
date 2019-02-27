@@ -61,8 +61,7 @@ void printOurHand(vector<Player *> players);
 void WillShipSail(vector<Player *> players, int&, bool&);
 //void CheckHand(vector<Player *> players);
 
-Card Player::discardList[5]; //why the fuck cant u be in main <- this guy.stupid();
-//because it is a static member, memory mst be allocated outside of the Class 
+Card Player::discardList[5]; 
 
 int main(){
     vector<Card> deck;
